@@ -1,0 +1,96 @@
+body{
+	font-size: 12px/5;
+	font-family: tahoma,arial,sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+#tip{
+	float: right;
+	padding: 0 0 3px 15px;
+	color: #e5e5e5;
+	margin-right: 3px;
+}
+#tip a{
+	color: #666;
+}
+#search-btn{float: right;}
+
+
+#button{
+	background-color: #ff5000;
+	cursor: pointer;
+	height: 40px;
+	line-height: 40px;
+	width: 80px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+}
+#search-common-pannel{
+	background-color: #fff;
+	height: 40px;
+	overflow: hidden;
+	padding-top: 0px 0 3px 77px;
+	
+}
+#search-common-pannel input{
+	font-size: 15px;
+	height: 33px;
+	
+	/*元素自适应 宽度设为100%*/
+	width: 100%;
+	border: 2px solid #ff5000;
+}
+#search-common-pannel i{
+	position: absolute;
+	top: 14px;
+	left: 86px;
+	z-index: 2;
+	color: #ccc;
+}
+#iconfon img{
+	position: relative;
+	padding-top:40px;
+	margin-left: 0px;
+	width: 20px;
+	height: 20px;
+}
+
+#list{
+	/*display: inline;*/
+	top: 5px;
+	left: 3px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+	border-left: 1px solid #f6f6f6;
+	border-right: 1px solid #e5e5e5;
+}
+
+#tab_1{
+	background-color:#ff5000;
+	float: left;
+	width: 90px;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 15px;
+	color:#fff;
+	border-style: none;
+}
+#tab_2{
+	background-color: #fff;
+	font-size: 15px;
+	border-style: none;
+	color: #ff5000;
+	margin-right: 10px;
+	padding-right: 3px;
+	height: 40px;
+	width: 90px;
+	overflow: hidden;
+	text-align: center;
+	
+}
+!
